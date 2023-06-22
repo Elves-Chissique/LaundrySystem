@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Controle System</title>
+    <link rel="stylesheet" href="Assets/style/estilo.css">
+
+    <!--CSS BootStrap Start-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--CSS BootStrap End-->
+    
+    <!--JavaScipt BootStrap Start-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!--JavaScrip BootStrap End-->
+    
+    <!-- endbuild -->
+
+
+    <!-- Entrada de links de fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <!--Fim-->
+
+</head>
+<body>
+    <main>
+        <br>
+        <header> <!--início de header-->
+            <div class="head">
+                <nav>
+                    <ul id="undifined">
+                        <li id="firsLi">
+                            <a href="Assets/paginas-Extras/HK.html" target="janela-principal" onclick="hk()">HK</a>
+                        </li>
+                        <li id="firsLi">
+                            <a href="Assets/paginas-Extras/F&B.html" target="janela-principal" onclick="fb()">F&B</a>
+                        </li>
+                        <li id="firsLi">
+                            <a href="Assets/paginas-Extras/Butler.html" target="janela-principal" onclick="butler()">Butler</a>
+                        </li>
+                        <li id="firsLi">
+                            <a href="Assets/paginas-Extras/Airport.html" target="janela-principal" onclick="aiport()">Aiport</a>
+                        </li>
+                        <li>
+                            <a href="Assets/paginas-Extras/Kitchen.html" target="janela-principal" onclick="kitchen()">Kitchen</a>
+                        </li>
+                        <li id="firsLi">
+                            <a href="Assets/paginas-Extras/Activity.html" target="janela-principal" onclick="activity()">Activity</a>
+                        </li>
+                        <li id="firsLi">
+                            <a href="Assets/paginas-Extras/Secuirtity.html" target="janela-principal" onclick="security()">Security</a>
+                        </li>
+                        <li id="firsLi">
+                            <a href="Assets/paginas-Extras/Lendscaping.html" target="janela-principal" onclick="landscap()">Landscaping</a>
+                        </li>
+                        <li id="firsLi">
+                            <a href="Assets/paginas-Extras/Maintenance.html" target="janela-principal" onclick="maintenance()">Maintenance</a>
+                        </li>
+
+                        <article class="sobre">
+                            <li>
+                                <a href="#">About us</a>
+                            </li>
+                        </article>
+                        <article class="forms" class="dropdown">
+                            <li>
+                                <a href="#" onmousemove="visivel()" onmouseleave="invisivel()">Our Forms
+                                </a>
+                            </li>
+                            <span id="dropDown">
+                                <span>
+                                    <p>
+                                        <a href="Assets/documents/Uniform Tag Number.xlsx">tag number</a>
+                                    </p>
+                                    <p>
+                                        <a href="Assets/documents/Kisawa Laundry Form.pdf">laundry washing</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">uniform policies</a>
+                                    </p>
+                                    
+                                </span>
+                            </span>
+                        </article>
+                        <article class="theme">
+                            <li>
+                                <a href="#"><img id="sun" src="Assets/icons/brightness-alt-high-fill.png"></a>
+                                <a href="#"><img id="moon" src="Assets/icons/Moon-star.png"></a>
+                            </li>
+                        </article>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </header><!--Termíno de header-->
+        <section><!--início de Section-->
+            <div class="left" class="shadow p-3 mb-5 bg-body rounded">
+                <div id="divIcon">
+                    
+                        <a id="home" href="Assets/paginas-Extras/pagina-Inicial.html"               target="janela-principal" onclick="home()">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+                            </svg>
+                        </a>
+                      
+
+                      <svg id="mostrarMenu1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" onclick="mostrarMenu1()">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                      </svg>
+
+                      <svg id="mostrarMenu2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid" viewBox="0 0 16 16" onclick="mostrarMenu2()">
+                        <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                      </svg>
+
+                      <svg id="mostrarMenu3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16" onclick="mostrarMenu3()">
+                        <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z"/>
+                      </svg>
+                      <svg id="mostrarMenu4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+                        <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                        <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7z"/>
+                      </svg>
+
+                      <div class="menu" id="menu1" > <!--Primeira Div de menu-->
+                            <div id="barraC1">
+                                <article>
+                                    <!--apenas para bara cizenta no fundo-->
+                                    <span class="btn-close" id="btnClose1" onclick="ocultarMenu()"></span>
+                                </article>
+                                <div id="contentMenu1" class="content-menu">
+                                    <p class="content-menu">
+                                        <img id="iconCerto1" class="icon-certo" src="Assets/icons/certo.svg" alt="">
+                                        <img onclick="progress()" id="perfilElves" class="perfil" src="Assets/images/Elves.png" alt=""> 
+                                        <span id="elv" class="notificacao">99+</span>
+                                        <span class="content-specific">
+                                            System <br> Administrator
+                                        </span>
+                                
+                                    </p>
+                                    <hr id="linha">
+                                    <p class="content-menu">
+                                        <img id="iconCerto2" class="icon-certo" src="Assets/icons/certo.svg" alt="">
+                                        <img onclick="progress()" id="perfilElacio" class="perfil" src="Assets/images/Elacio.png" alt=""><span class="notificacao">50</span>
+                                        <span class="content-specific">
+                                            Content <br> Administrator
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                      </div>
+
+                      <div class="menu" id="menu2" > <!--Segunda Div de mun-->
+                            <div id="barraC2">
+                                <article>
+                                    <!--apenas para bara cizenta no fundo-->
+                                    <span class="btn-close" id="btnClose1" onclick="ocultarMenu()"></span>
+                                </article>
+                                <div id="contentMenu2" class="content-menu">
+                                    <p onclick="progress()" class="content-menu2"> <!--Primeiro icon de botão-->
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+                                            <path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+                                            <path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+                                          </svg>
+
+                                        <span>Request uniform</span>
+                                    </p>
+
+                                    <p onclick="progress()" class="content-menu2"> <!--Segungo icon de botão-->
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-symmetry-horizontal" viewBox="0 0 16 16">
+                                            <path d="M13.5 7a.5.5 0 0 0 .24-.939l-11-6A.5.5 0 0 0 2 .5v6a.5.5 0 0 0 .5.5h11zm.485 2.376a.5.5 0 0 1-.246.563l-11 6A.5.5 0 0 1 2 15.5v-6a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .485.376zM11.539 10H3v4.658L11.54 10z"/>
+                                          </svg>
+
+                                        <span>Suggustion</span>
+                                    </p>
+
+                                    <p onclick="progress()" class="content-menu2"> <!--Terceiro icon de botão-->
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-dots" viewBox="0 0 16 16">
+                                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                            <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                          </svg>
+                                        
+                                        <span>Say Hello</span>
+                                    </p>
+                                </div>
+                            </div>
+                      </div>
+
+                      <div class="menu" id="menu3" > <!--Terceira Div de mun-->
+                        <div id="barraC3">
+                            <article>
+                                <!--apenas para bara cizenta no fundo-->
+                                <span class="btn-close" id="btnClose1" onclick="ocultarMenu()"></span>
+                            </article>
+                            <div id="contentMenu3" class="content-menu">
+                                <p class="content-menu">
+                                    Olá pessoal! Eu sou o menu3
+                                </p>
+                            </div>
+                        </div>
+                  </div>
+
+
+                  <div class="menu" id="menu4" > <!--Quarta Div de mun-->
+                        <div id="barraC4">
+                            <article>
+                                <!--apenas para bara cizenta no fundo-->
+                                <span class="btn-close" id="btnClose1" onclick="ocultarMenu()"></span>
+                            </article>
+                            <div id="contentMenu4" class="content-menu">
+                                <p class="content-menu">
+                                    Olá pessoal! Eu sou o menu4
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="carousel">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Assets/images/photo1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/images/photo2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/images/photo4.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                    </div>
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Assets/images/photo1.2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/images/photo2.2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/images/photo6.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                    </div>
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Assets/images/photo1.2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/images/photo2.2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Assets/images/photo6.jpeg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            <p>
+                <span>Uniform Request</span>
+            </p>
+            </div> <!--Termíno da DIV que floatua a esqeuerda--> 
+
+            <div class="department">
+                <marquee id="marq" behavior="alternate" direction="">housekeeping</marquee>
+            </div>
+
+            <iframe src="Assets/paginas-Extras/pagina-Inicial.html" class="right" name="janela-principal">
+
+            </iframe>
+            <div class="department-2">
+                housekeeping
+            </div>
+           
+        </section>
+        <footer>
+
+        </footer>
+    </main>
+    <script src="Assets/JavaScript/js.js"></script>
+</body>
+</html>
