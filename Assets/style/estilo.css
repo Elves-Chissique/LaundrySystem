@@ -484,6 +484,7 @@ display: none;
     width: 60%;
     float: left;
     display: none;
+    text-align: center;
 }
 
 #btnForm{
