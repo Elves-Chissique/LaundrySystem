@@ -51,6 +51,11 @@ var linked1 = window.document.getElementById("linked1")
 var linked2 = window.document.getElementById("linked2")
 var linked3 = window.document.getElementById("linked3")
 
+var modal = window.document.getElementById("modal")
+var modalDireito = window.document.getElementById("modalDireito")
+var modalEsquerdo = window.document.getElementById("modalEsquerdo")
+var btnForm = window.document.getElementById("btnForm")
+
 
 // configuração do menu principal / botão Forms
 dropDown.addEventListener('mouseover', visivel)
@@ -142,6 +147,17 @@ perfilElacio.addEventListener('mouseout', ocultarCeta2)
 
 function progress(){
     alert('heeee... gentleman! hold on, the work is still in progress')
+}
+
+function showModal(){
+    modal.style.backgroundColor = 'rgba(255,255,255,0.8)'
+    modal.style.width = '75vw'
+    modal.style.height = '60vh'
+    modal.style.border = '1px solid red'
+    modalDireito.style.display = 'block'
+    modalEsquerdo.style.display = 'block'
+    btnForm.style.display = 'block'
+
 }
 
 function mostrarCeta1(){

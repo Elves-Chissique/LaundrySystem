@@ -441,6 +441,163 @@ section > div.department{
     font-size:x-large;
 }
 
+#modal{
+    color: #fff;
+    position: fixed;
+    width:0vw;
+    height: 0px;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.0);
+    margin-left: 24vw;
+    margin-top: 53px;
+    border-radius: 0px;
+    border: none;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: left;
+
+
+}
+
+#modal > form > p{
+    background-color:rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 0px;
+    height: 50vh;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+#modalDireito{
+width: 39%;
+float: right;
+display: none;
+}
+
+#fff{
+    height: 5px;
+}
+
+#modalEsquerdo{
+    width: 60%;
+    float: left;
+    display: none;
+}
+
+#btnForm{
+    display: none;
+    cursor: pointer;
+    font-size: 15px;
+    clear: both;
+}
+
+.caixa{
+    border-radius: 10px;
+    width: 70%;
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    outline: none;
+    background-color: #ffffff1c;
+    border: none;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 0, 0, 0);
+}
+
+.caixa:hover{
+    border-bottom: 2px solid red;
+    background-color: #ffffff54;
+}
+
+.caixa2{
+    width: 80%;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #5a010118;
+    border-bottom: 2px solid #ffffff2d;
+    text-align: center;
+    color:#fff;
+}
+
+.caixinhas{
+    width: 45px;
+    height: 17px;
+    background-color: #ffffff75;
+    border-radius: 5px;
+    color:#fff;
+    padding-left: 3px;
+}
+
+.artigos{
+    color:#d8d8d8;
+    margin: 15px 18px 15px 18px;
+    border-bottom: 1px #ffffff6b solid;
+    border-top: 1px #ffffff6b solid;
+    padding:1px 5px;
+    background-color: rgba(255, 0, 0, 0.048);
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.artigos:hover{
+    background-color: #5a010141;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    color: #fff;
+}
+
+.caixa2:hover{
+    background-color: #5a010141;
+    border-bottom: 2px solid #ffffff;
+}
+
+#iDate{
+    width: 30%;
+    height: 10vh;
+    border-radius: 15px;
+    outline: none;
+    background-color: #ffffff1c;
+    border: none;
+    border: 2px solid rgba(255, 0, 0, 0);
+    float: right;
+}
+
+#iDate-label{
+    float:right;
+    margin-right: 70px;
+}
+
+#iDate:hover{
+    border: 2px solid red;
+    background-color: #ffffff54;
+}
+
+#btnForm > span > input{
+    width: 80px;
+    background-color:rgba(0, 0, 0, 0.8);
+    font-size: smaller;
+    margin-top: -10px;
+    transition: all 0.2s;
+    padding: 1px;
+    border-radius: 15px;
+    font-weight: bolder;
+    color: red;
+    border: 2px solid red;
+}
+
+#btnForm > span > input:hover{
+    color:blue;
+    border: 2px solid blue;
+    background-color: rgba(255,255,255,0.5);
+    
+}
+
+
+
 section > div.department > marquee{
     display: none;
     width: 230px;
