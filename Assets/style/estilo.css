@@ -476,10 +476,6 @@ float: right;
 display: none;
 }
 
-#fff{
-    height: 5px;
-}
-
 #modalEsquerdo{
     width: 60%;
     float: left;
@@ -526,7 +522,7 @@ display: none;
 
 .caixinhas{
     width: 45px;
-    height: 17px;
+    height: 19px;
     background-color: #ffffff75;
     border-radius: 5px;
     color:#fff;
@@ -535,25 +531,44 @@ display: none;
 
 .artigos{
     color:#d8d8d8;
-    margin: 15px 18px 15px 18px;
+    margin: 15px 13px 15px 13px;
     border-bottom: 1px #ffffff6b solid;
     border-top: 1px #ffffff6b solid;
-    padding:1px 5px;
+    padding:3px 5px;
     background-color: rgba(255, 0, 0, 0.048);
     cursor: pointer;
     font-size: 12px;
+    display: inline-block;
+    width: 160px;
 }
 
 .artigos:hover{
     background-color: #5a010141;
-    border-bottom: 2px solid #ffffff;
-    border-top: 2px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
     color: #fff;
+}
+
+.artigos ::placeholder{
+    color:#fff;
 }
 
 .caixa2:hover{
     background-color: #5a010141;
     border-bottom: 2px solid #ffffff;
+}
+
+textarea{
+    width: 95%;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.048);
+    color:#fff;
+}
+
+textarea::placeholder{
+    font-size: 11px;
+    color: #f0ecec;
+    padding: 5px;
 }
 
 #iDate{
