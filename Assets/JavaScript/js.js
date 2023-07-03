@@ -55,6 +55,7 @@ var modal = window.document.getElementById("modal")
 var modalDireito = window.document.getElementById("modalDireito")
 var modalEsquerdo = window.document.getElementById("modalEsquerdo")
 var btnForm = window.document.getElementById("btnForm")
+var fechar = window.document.getElementById("fechar")
 
 
 // configuração do menu principal / botão Forms
@@ -136,6 +137,14 @@ function ocultarMenu(){
     barraC3.style.display = 'none'
     barraC4.style.display = 'none'
 
+    modal.style.backgroundColor = 'rgba(255,255,255,0.0)'
+    modal.style.width = '0vw'
+    modal.style.height = '0vh'
+    modal.style.border = 'none'
+    modalDireito.style.display = 'none'
+    modalEsquerdo.style.display = 'none'
+    btnForm.style.display = 'none'
+
 }
 
 //Chamada de eventos (addEventListener) para os perfis
@@ -149,6 +158,7 @@ function progress(){
     alert('heeee... gentleman! hold on, the work is still in progress')
 }
 
+//Configuração de Modal
 function showModal(){
     modal.style.backgroundColor = 'rgba(255,255,255,0.8)'
     modal.style.width = '75vw'
@@ -157,7 +167,19 @@ function showModal(){
     modalDireito.style.display = 'block'
     modalEsquerdo.style.display = 'block'
     btnForm.style.display = 'block'
+    fechar.style.display = 'block'
 
+}
+
+function hideModal(){
+    modal.style.backgroundColor = 'rgba(255,255,255,0.0)'
+    modal.style.width = '0vw'
+    modal.style.height = '0vh'
+    modal.style.border = 'none'
+    modalDireito.style.display = 'none'
+    modalEsquerdo.style.display = 'none'
+    btnForm.style.display = 'none'
+    fechar.style.display = 'none'
 }
 
 function mostrarCeta1(){

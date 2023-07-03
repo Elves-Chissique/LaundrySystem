@@ -299,8 +299,23 @@
                        &nbsp;<label for="iEmail">Email: </label><br>
                        <input class="caixa" type="email" name="email" id="iEmail" required> <br>
 
-                       <label for="iNumber">department</label><br>
-                       <input class="caixa" type="text" name="phone" id="iNumber" placeholder="optional"> <br><br>
+                       <label for="iDpt">Department</label><br>
+                       <select name="Department" id="iDpt" class="caixa">
+                        <option value="">Select</option>
+                        <option value="HK">housekeeping</option>
+                        <option value="Maintenance">Maintenance</option>
+                        <option value="Landscaping">Landscaping</option>
+                        <option value="Kitche">Kitche</option>
+                        <option value="C.Mussassa">C.Mussassa</option>
+                        <option value="O.Mussassa">O.Mussassa</option>
+                        <option value="M.Tarrece">Main Tarrece</option>
+                        <option value="Bartender">Bartender</option>
+                        <option value="Activity">Activity</option>
+                        <option value="Aiport">Airport</option>
+                        <option value="Butler">Butler</option>
+                        <option value="Security">Security</option>
+                       </select>
+                       <br><br>
 
                        <label id="iDate-label" for="iDate">Date: </label><br>
                        <input type="date" name="nDate" id="iDate" required>
@@ -383,6 +398,9 @@
                         <span>
                             <input type="submit" value="Send">
                         </span>
+                    </article>
+                    <article id="fechar">
+                        <span class="btn-close" onclick="hideModal()">X</span>
                     </article>
                 </form>
             </div>
