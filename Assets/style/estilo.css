@@ -572,6 +572,7 @@ textarea::placeholder{
     color: #f0ecec;
     padding: 5px;
     letter-spacing: 3px;
+    outline: none;
 }
 
 #iDate{
