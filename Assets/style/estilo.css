@@ -567,6 +567,11 @@ textarea{
     color:#fff;
 }
 
+textarea:hover{
+    border: 1px solid #fff;
+    background-color: #5a010141;
+}
+
 textarea::placeholder{
     font-size: 11px;
     color: #f0ecec;
