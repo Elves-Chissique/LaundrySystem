@@ -393,10 +393,15 @@
                         </span> 
                         <br>
                     </p>
-                    <p id="suggustion">
-                        <label for="iName2">Name:</label>
-                        <input class="caixa2" type="text" name="nome2" id="iName2" placeholder="employee Name" required>
-                    </p>
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <input type="hidden" name="accessKey" value="178e60b8-8561-4745-9370-03e0f69b53f9">
+                        <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+                        <p id="suggustion">
+                            <label for="iName2">Name:</label>
+                            <input class="caixa2" type="text" name="nome2" id="iName2" placeholder="Full Name" required>
+                            <input type="radio" name="" id="">
+                        </p>
+                    </form>
                     <br>
                     <article id="btnForm">
                         <span>
