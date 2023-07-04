@@ -56,6 +56,7 @@ var modalDireito = window.document.getElementById("modalDireito")
 var modalEsquerdo = window.document.getElementById("modalEsquerdo")
 var suggustion = window.document.getElementById("suggustion")
 var btnForm = window.document.getElementById("btnForm")
+var btnForm2 = window.document.getElementById("btnForm2")
 var fechar = window.document.getElementById("fechar")
 
 
@@ -146,6 +147,7 @@ function ocultarMenu(){
     modalEsquerdo.style.display = 'none'
     btnForm.style.display = 'none'
     suggustion.style.display = 'none'
+    btnForm2.style.display = 'none'
 
 }
 
@@ -170,6 +172,7 @@ function SayHello(){
     btnForm.style.display = 'none'
     fechar.style.display = 'none'
     suggustion.style.display = 'none'
+    btnForm2.style.display = 'none'
 
     window.prompt('SayHello to Laundry:')
     
@@ -184,8 +187,12 @@ function showModal(){
     modalDireito.style.display = 'block'
     modalEsquerdo.style.display = 'block'
     btnForm.style.display = 'block'
+    btnForm2.style.display = 'none'
     fechar.style.display = 'block'
+    fechar.style.backgroundColor = 'rgba(0,0,0,0.8)'
+    fechar.style.borderRadius = '6px'
     suggustion.style.display = 'none'
+    
 
 }
 
@@ -195,8 +202,11 @@ function Suggustion(){
     modal.style.width = '75vw'
     modal.style.height = '60vh'
     modal.style.border = '1px solid red'
-    btnForm.style.display = 'block'
+    btnForm.style.display = 'none'
+    btnForm2.style.display = 'block'
     fechar.style.display = 'block'
+    fechar.style.backgroundColor = '#fff'
+    fechar.style.borderRadius = '6px'
 
     modalDireito.style.display = 'none'
     modalEsquerdo.style.display = 'none'
@@ -212,6 +222,7 @@ function hideModal(){
     btnForm.style.display = 'none'
     fechar.style.display = 'none'
     suggustion.style.display = 'none'
+    btnForm2.style.display = 'none'
 }
 
 function mostrarCeta1(){

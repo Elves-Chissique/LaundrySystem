@@ -490,16 +490,9 @@ display: none;
 #suggustion{
     width: 60%;
     display:none;
-    text-align: center;
+    text-align: left;
     margin: auto;
     background-color: #82b781;
-}
-
-#btnForm{
-    display: none;
-    cursor: pointer;
-    font-size: 15px;
-    clear: both;
 }
 
 .caixa{
@@ -577,6 +570,22 @@ textarea{
     color:#fff;
 }
 
+#iName2{ /*Configuração do campo nome da formulário de sugestão*/
+    width: 95%;
+}
+
+textarea#imensagem2{ /*Configuração do campo nome da formulário de sugestão*/
+    height: 27vh;
+    border-radius: 20px;
+}
+
+#suggustion label{
+    font-family: cursive;
+    font-size: 12px;
+}
+
+
+
 textarea:hover{
     border: 1px solid #fff;
     background-color: #5a010141;
@@ -609,6 +618,36 @@ textarea::placeholder{
 #iDate:hover{
     border: 2px solid red;
     background-color: #ffffff54;
+}
+
+#btnForm{
+    display: none;
+    cursor: pointer;
+    font-size: 15px;
+    clear: both;
+}
+
+#btnForm2{
+    display: none;
+    cursor: pointer;
+    font-size: 15px;
+    clear: both;
+}
+
+#btnForm2 input{
+    width: 80px;
+    background-color:rgba(255, 255, 255, 1);
+    border: 2px solid red;
+    color:red;
+    border-radius:15px ;
+    font-size: smaller;
+    outline: none;
+    padding: 1px;
+    transition: all0.2s;
+}
+
+#btnForm2 input:hover{
+    border: 2px solid blue;
 }
 
 #btnForm > span > input{
