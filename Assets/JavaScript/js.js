@@ -54,6 +54,7 @@ var linked3 = window.document.getElementById("linked3")
 var modal = window.document.getElementById("modal")
 var modalDireito = window.document.getElementById("modalDireito")
 var modalEsquerdo = window.document.getElementById("modalEsquerdo")
+var suggustion = window.document.getElementById("suggustion")
 var btnForm = window.document.getElementById("btnForm")
 var fechar = window.document.getElementById("fechar")
 
@@ -144,6 +145,7 @@ function ocultarMenu(){
     modalDireito.style.display = 'none'
     modalEsquerdo.style.display = 'none'
     btnForm.style.display = 'none'
+    suggustion.style.display = 'none'
 
 }
 
@@ -158,6 +160,21 @@ function progress(){
     alert('heeee... gentleman! hold on, the work is still in progress')
 }
 
+function SayHello(){
+    modal.style.backgroundColor = 'rgba(255,255,255,0.0)'
+    modal.style.width = '0vw'
+    modal.style.height = '0vh'
+    modal.style.border = 'none'
+    modalDireito.style.display = 'none'
+    modalEsquerdo.style.display = 'none'
+    btnForm.style.display = 'none'
+    fechar.style.display = 'none'
+    suggustion.style.display = 'none'
+
+    window.prompt('SayHello to Laundry:')
+    
+}
+
 //Configuração de Modal
 function showModal(){
     modal.style.backgroundColor = 'rgba(255,255,255,0.8)'
@@ -168,7 +185,21 @@ function showModal(){
     modalEsquerdo.style.display = 'block'
     btnForm.style.display = 'block'
     fechar.style.display = 'block'
+    suggustion.style.display = 'none'
 
+}
+
+function Suggustion(){
+    suggustion.style.display = 'block'
+    modal.style.backgroundColor = 'rgba(0,0,0,1)'
+    modal.style.width = '75vw'
+    modal.style.height = '60vh'
+    modal.style.border = '1px solid red'
+    btnForm.style.display = 'block'
+    fechar.style.display = 'block'
+
+    modalDireito.style.display = 'none'
+    modalEsquerdo.style.display = 'none'
 }
 
 function hideModal(){
@@ -180,6 +211,7 @@ function hideModal(){
     modalEsquerdo.style.display = 'none'
     btnForm.style.display = 'none'
     fechar.style.display = 'none'
+    suggustion.style.display = 'none'
 }
 
 function mostrarCeta1(){

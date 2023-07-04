@@ -402,11 +402,12 @@ section >div > p{
 
 section > div > p > span{
     color: #000;
-    font-weight: bolder;
-    transition: 1.5s;
-    padding: 0.1vw;
+    font-weight: bold;
+    transition: 0.5s;
+    padding: 0.3vw;
     border-radius: 10px;
-    
+    background-color: #fff;
+    font-size: 13px;
     
 }
 section > div > p > span:hover{
@@ -464,7 +465,6 @@ section > div.department{
 }
 
 #modal > form > p{
-    background-color:rgba(0, 0, 0, 0.8);
     border: none;
     border-radius: 0px;
     height: 50vh;
@@ -473,16 +473,26 @@ section > div.department{
 }
 
 #modalDireito{
+background-color:rgba(0, 0, 0, 0.8);
 width: 39%;
 float: right;
 display: none;
 }
 
 #modalEsquerdo{
+    background-color:rgba(0, 0, 0, 0.8);
     width: 60%;
     float: left;
     display: none;
     text-align: center;
+}
+
+#suggustion{
+    width: 60%;
+    display:none;
+    text-align: center;
+    margin: auto;
+    background-color: #82b781;
 }
 
 #btnForm{
