@@ -193,6 +193,8 @@ function ocultarMenu(){
     btnForm.style.display = 'none'
     suggustion.style.display = 'none'
     btnForm2.style.display = 'none'
+    btnForm.style.display = 'none'
+    fechar.style.display = 'none'
 
 }
 
