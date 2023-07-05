@@ -90,6 +90,17 @@ function mostrarMenu1(){
     barraC2.style.display = 'none'
     barraC3.style.display = 'none'
     barraC4.style.display = 'none'
+
+    modal.style.backgroundColor = 'rgba(255,255,255,0.0)'
+    modal.style.width = '0vw'
+    modal.style.height = '0vh'
+    modal.style.border = 'none'
+    modalDireito.style.display = 'none'
+    modalEsquerdo.style.display = 'none'
+    btnForm.style.display = 'none'
+    fechar.style.display = 'none'
+    suggustion.style.display = 'none'
+    btnForm2.style.display = 'none'
 }
 function mostrarMenu2(){
     menu1.style.height = '0vh'
@@ -102,7 +113,19 @@ function mostrarMenu2(){
     barraC1.style.display = 'none'
     barraC3.style.display = 'none'
     barraC4.style.display = 'none'
+
+    modal.style.backgroundColor = 'rgba(255,255,255,0.0)'
+    modal.style.width = '0vw'
+    modal.style.height = '0vh'
+    modal.style.border = 'none'
+    modalDireito.style.display = 'none'
+    modalEsquerdo.style.display = 'none'
+    btnForm.style.display = 'none'
+    fechar.style.display = 'none'
+    suggustion.style.display = 'none'
+    btnForm2.style.display = 'none'
 }
+
 function mostrarMenu3(){
     menu1.style.height = '0vh'
     menu2.style.height = '0vh'
@@ -114,6 +137,17 @@ function mostrarMenu3(){
     barraC1.style.display = 'none'
     barraC2.style.display = 'none'
     barraC4.style.display = 'none'
+
+    modal.style.backgroundColor = 'rgba(255,255,255,0.0)'
+    modal.style.width = '0vw'
+    modal.style.height = '0vh'
+    modal.style.border = 'none'
+    modalDireito.style.display = 'none'
+    modalEsquerdo.style.display = 'none'
+    btnForm.style.display = 'none'
+    fechar.style.display = 'none'
+    suggustion.style.display = 'none'
+    btnForm2.style.display = 'none'
 }
 
 function mostrarMenu4(){
@@ -127,6 +161,17 @@ function mostrarMenu4(){
     barraC3.style.display = 'none'
     barraC2.style.display = 'none'
     barraC1.style.display = 'none'
+
+    modal.style.backgroundColor = 'rgba(255,255,255,0.0)'
+    modal.style.width = '0vw'
+    modal.style.height = '0vh'
+    modal.style.border = 'none'
+    modalDireito.style.display = 'none'
+    modalEsquerdo.style.display = 'none'
+    btnForm.style.display = 'none'
+    fechar.style.display = 'none'
+    suggustion.style.display = 'none'
+    btnForm2.style.display = 'none'
 }
 
 function ocultarMenu(){
