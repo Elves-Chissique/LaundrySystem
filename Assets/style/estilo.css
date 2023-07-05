@@ -461,8 +461,8 @@ section > div.department{
     font-weight: 100;
     text-align: left;
 
-
 }
+
 
 #modal > form > p{
     border: none;
@@ -470,6 +470,7 @@ section > div.department{
     height: 50vh;
     border: 1px solid red;
     padding: 10px;
+    overflow: auto;
 }
 
 #modalDireito{
@@ -477,6 +478,9 @@ background-color:rgba(0, 0, 0, 0.8);
 width: 39%;
 float: right;
 display: none;
+}
+#modalDireito select{
+    text-align: left;
 }
 
 #modalEsquerdo{
@@ -536,10 +540,10 @@ display: none;
 
 .artigos{
     color:#d8d8d8;
-    margin: 15px 13px 15px 13px;
+    margin: 10px 10px 10px 10px;
     border-bottom: 1px #ffffff6b solid;
     border-top: 1px #ffffff6b solid;
-    padding:3px 5px;
+    padding:3px 3px;
     background-color: rgba(255, 0, 0, 0.048);
     cursor: pointer;
     font-size: 12px;
@@ -581,7 +585,8 @@ textarea#imensagem2{ /*Configuração do campo nome da formulário de sugestão*
 
 #suggustion label{
     font-family: cursive;
-    font-size: 12px;
+    font-size: 12
+    px;
 }
 
 

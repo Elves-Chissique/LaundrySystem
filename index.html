@@ -286,8 +286,9 @@
                        <input type="hidden" name="accessKey" value="178e60b8-8561-4745-9370-03e0f69b53f9">
                        <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
                        <br>
+
                        <label for="iRequester">Name: </label><br>
-                       <input class="caixa" type="text" name="name" id="iRequester" list="managers" required> <br>
+                       <input class="caixa" type="text" name="$Requester" id="iRequester" list="managers" required> <br>
 
                        <datalist id="managers">
                         <option value="E.Ch">Elves Chissique</option>
@@ -296,20 +297,29 @@
                         <option value="H.A">Herberto Alcídio</option>
                        </datalist>
 
+                       <input class="caixa" type="text" name="honeypot" style="display: none;"> <!--Separador-->
                        &nbsp;<label for="iEmail">Email: </label><br>
-                       <input class="caixa" type="email" name="email" id="iEmail" required> <br>
+                       <input class="caixa" type="email" name="email" id="iEmail" required>
+                       <input class="caixa" type="text" name="honeypot" style="display: none;"> <!--Separador-->
+
+
+                       <br>
 
                        <label for="iDpt">Department</label><br>
                        <select name="Department" id="iDpt" class="caixa">
                         <option value="">Select</option>
                         <option value="HK">housekeeping</option>
-                        <option value="Maintenance">Maintenance</option>
-                        <option value="Landscaping">Landscaping</option>
-                        <option value="Kitche">Kitche</option>
-                        <option value="C.Mussassa">C.Mussassa</option>
-                        <option value="O.Mussassa">O.Mussassa</option>
-                        <option value="M.Tarrece">Main Tarrece</option>
-                        <option value="Bartender">Bartender</option>
+                        <option value="Kitchen">Kitchen</option>
+                        <optgroup label="F&B">
+                            <option value="C.Mussassa">C.Mussassa</option>
+                            <option value="O.Mussassa">O.Mussassa</option>
+                            <option value="M.Tarrece">Main Tarrece</option>
+                            <option value="Bartender">Bartender</option>
+                        </optgroup>
+                        <optgroup label="ENG">
+                            <option value="Maintenance">Maintenance</option>
+                            <option value="Landscaping">Landscaping</option>
+                        </optgroup>
                         <option value="Activity">Activity</option>
                         <option value="Aiport">Airport</option>
                         <option value="Butler">Butler</option>
@@ -324,8 +334,8 @@
                         Requested to
                         <br>
                         <label for="iName2">Name:</label>
-                        <input class="caixa2" type="text" name="nome2" id="iName2" placeholder="employee Name" required> 
-                        <br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input class="caixa2" type="text" name="$Requested to:" id="iName2" placeholder="employee Name" required> 
+                        <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                         <textarea name="mensagem" id="imensagem" cols="30" rows="3" placeholder="Dear requester! please Tick on the article that you need and inform the QTY, either you can do by writing here, what articles are needed"></textarea>
                         <br>
 
