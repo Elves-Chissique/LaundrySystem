@@ -842,7 +842,7 @@ section > div.department-2{
 
 }
 
-.conteiner-1{
+.conteiner-1{ /*Activity*/
     justify-content:center;
     display:flex;
     flex-wrap: wrap;
@@ -854,7 +854,7 @@ section > div.department-2{
     background-size: cover;
 }
 
-.conteiner-2{
+.conteiner-2{ /*Airport*/
     justify-content:center;
     display:flex;
     flex-wrap: wrap;
@@ -866,7 +866,7 @@ section > div.department-2{
     background-size: cover;
 }
 
-.conteiner-3{
+.conteiner-3{ /*Butler*/
     justify-content:center;
     display:flex;
     flex-wrap: wrap;
@@ -878,7 +878,7 @@ section > div.department-2{
     background-size: cover;
 }
 
-.conteiner-4{
+.conteiner-4{/*F&B*/
     justify-content:center;
     display:flex;
     flex-wrap: wrap;
@@ -890,7 +890,7 @@ section > div.department-2{
     background-size: cover;
 }
 
-.conteiner-5{
+.conteiner-5{ /*Kitchen*/
     justify-content:center;
     display:flex;
     flex-wrap: wrap;
@@ -902,37 +902,37 @@ section > div.department-2{
     background-size: cover;
 }
 
-.conteiner-6{
+.conteiner-6{ /*LandScaping*/
     justify-content:center;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     min-height: 100%;
-    background-image:url('../images/abstract-transparent.jpg');
+    background-image:url('../images/autumn-season.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.conteiner-7{
+.conteiner-7{ /*Maintenance*/
     justify-content:center;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     min-height: 100%;
-    background-image:url('../images/transparent-leaf.jpg');
+    background-image:url('../images/coconuts.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.conteiner-8{
+.conteiner-8{ /*Security*/
     justify-content:center;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     min-height: 100%;
-    background-image:url('../images/transparent-autumn.jpg');
+    background-image:url('../images/painting-mount.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
