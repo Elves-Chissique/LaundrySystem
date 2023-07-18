@@ -551,8 +551,6 @@ function toLogin(){
 }
 
 function toLogin2(){
-    
-
     window.document.location = "Assets/paginas-Extras/login2.html"
 }
 
@@ -562,6 +560,21 @@ function retroceder(){
 
     window.document.location = "../../index.html"
 }
+
+/**************** Troca de contas *********************/
+
+function trocarConta(){
+    
+
+    window.document.location = "login.html"
+}
+
+function trocarConta2(){
+    
+
+    window.document.location = "login2.html"
+}
+
 
 
 function validateForm() {
