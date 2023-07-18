@@ -536,3 +536,26 @@ function lT3(){
     linked2.style.transitionDelay = ".0s"
     linked3.style.transitionDelay = ".0s"
 }
+
+
+
+/* ******************************************Cofiguração de login*************************************** */
+
+function validateForm() {
+    // Get input values
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+  
+    // Simple validation for demonstration purposes
+    if (username === "" || password === "") {
+      var errorMessage = document.getElementById("error-message");
+      errorMessage.textContent = "Please enter both username and password.";
+      return false;
+    }
+  
+    // In a real-world scenario, you would perform server-side validation here
+    // Check if the username and password match a user in the database
+  
+    return true; // Allow form submission
+  }
+  
