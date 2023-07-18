@@ -63,6 +63,8 @@ var fechar = window.document.getElementById("fechar")
 // configuração do menu principal / botão Forms
 dropDown.addEventListener('mouseover', visivel)
 dropDown.addEventListener('mouseleave', invisivel)
+
+
 function visivel(){
     dropDown.style.display = 'block'
 }
@@ -539,13 +541,27 @@ function lT3(){
 
 
 
+
 /* ******************************************Cofiguração de login*************************************** */
+
+var Back = document.getElementById("back");
+Back.addEventListener('click', volt)
+
+function volt(){
+    alert('Olá, Mundo!')
+}
+
+
+
+
+ 
 
 function validateForm() {
     // Get input values
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    var errorMessage = document.getElementById("error-message")
+    var errorMessage = document.getElementById("error-message");
+
   
     // Simple validation for demonstration purposes
     if (username == "Elves Chissique" && password == "1234") {
