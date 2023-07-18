@@ -545,12 +545,22 @@ function validateForm() {
     // Get input values
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
+    var errorMessage = document.getElementById("error-message")
   
     // Simple validation for demonstration purposes
-    if (username === "" || password === "") {
-      var errorMessage = document.getElementById("error-message");
-      errorMessage.textContent = "Please enter both username and password.";
+    if (username == "Elves Chissique" && password == "1234") {
+     
+      errorMessage.textContent = "Page Accessed succefully";
       return false;
+    }
+    else if (username == "" || username == "") {
+        errorMessage.textContent = "Please enter both username and password. Or contatc Elves Chissique"
+        return false
+        
+    }
+    else if(username != "Elves Chissique" || password != "1234"){
+        errorMessage.textContent = "The username or password is incorrect. Please Get in touch with Elves Chissique for assistence"
+        return false
     }
   
     // In a real-world scenario, you would perform server-side validation here
