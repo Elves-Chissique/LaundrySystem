@@ -544,17 +544,25 @@ function lT3(){
 
 /* ******************************************Cofiguração de login*************************************** */
 
-var Back = document.getElementById("back");
-Back.addEventListener('click', volt)
+function toLogin(){
+    
 
-function volt(){
-    alert('Olá, Mundo!')
+    window.document.location = "Assets/paginas-Extras/login.html"
+}
+
+function toLogin2(){
+    
+
+    window.document.location = "Assets/paginas-Extras/login2.html"
 }
 
 
+function retroceder(){
+    
 
+    window.document.location = "../../index.html"
+}
 
- 
 
 function validateForm() {
     // Get input values
