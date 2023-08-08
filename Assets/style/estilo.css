@@ -218,7 +218,7 @@ section > div > #divIcon > svg:hover{
 
 section > div > #divIcon > div.menu{
     display: block;
-    background-color: #cfcaca;;
+    background-color: #cfcaca;
     color: #fff;
     position:absolute;
     width: 20vw;
@@ -406,22 +406,31 @@ section > div > #carousel{
 
 /****************************Configuração da Div Quote*********************/
 .Quote{
-    background-color: #360631;
-    padding: 13px 10px 0.5px 10px;
+    background-color: #000;
+    /*: 13px 10px 0.5px 10px;*/
     border-radius: 8px;
+    border:2px solid  #928d8d;
     text-align: justify;
-    color:#bfb9b9;
+    color:#adabab;
     font-family: 'Lugrasimo', cursive;
-    font-size: 13px;
+    font-size: 0.8vw;
     font-weight: 200;
-    height: 42vh;
+    height: 40vh;
+    background-image: url('../images/transparent-vivid.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .Quote > P{
-    background-color: rgb(44, 44, 95);
+    background-color: rgba(29, 29, 31, 0.733);
     padding: 10px;
     border-radius: 10px;
-    height: 39vh;
+    height: 39.5vh;
+    /*margin-top: -13px;*/
+    background-attachment: fixed;
+    overflow-y: auto;
+
 }
 
 .Quote > p > span{
@@ -432,7 +441,7 @@ section > div > #carousel{
     text-align: center;
     width: 100%;
     margin-bottom: 10px;
-    font-size: 17px;
+    font-size: 1.1vw;
 }
 
 section >div > p{
