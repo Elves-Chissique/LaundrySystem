@@ -353,17 +353,12 @@ hr#linha{
 
 
 /*Configuração de content-menu Terceiro*/
-#Numero{
-    position: absolute;
-}
-
 #Numero > svg{
-    width: 2.7vw;
-    height: 2.7vw;
+    width: 2.8vw;
+    height: 2.8vw;
     color: rgb(47, 182, 255);
     transition: 0.3;
     top: 0px;
-    position: relative;
     margin-bottom: 25px;
 }
 
