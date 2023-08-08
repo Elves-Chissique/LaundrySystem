@@ -416,7 +416,7 @@ section > div > #carousel{
     font-size: 0.8vw;
     font-weight: 200;
     height: 40vh;
-    background-image: url('../images/transparent-vivid.jpg');
+    background-image: url('../images/Baracca.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -434,7 +434,8 @@ section > div > #carousel{
 }
 
 .Quote > p > span{
-    text-decoration: underline;
+    text-transform: uppercase;
+    border-bottom: #fff 1px solid;
     color: #fff;
     display: inline-block;
     margin: auto;
