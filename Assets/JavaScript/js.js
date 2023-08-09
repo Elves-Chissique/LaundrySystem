@@ -610,12 +610,18 @@ function validateForm() {
 /* ----------------------------     configuração de checkBox      ----------------------------------------- */
 
 var checkBoxTorbant = window.document.getElementById('iTurbant')
+var Mensagem = window.document.getElementById('imensagem')
+var turbant = window.document.getElementById('TurbantN').value
+
+var Form = window.document.getElementById("meuForm")
+var inputElement = formulario.querySelector('input[name = "TTT"]')
+var valorDigitado = inputElement.value
 
 function checkCheckBox(){
     if(checkBoxTorbant.checked){
-        window.alert('o checkBox está on')
+        Mensagem.innerHTML = valorDigitado
     }
     else{
-        window.alert('o checkBox está off')
+        Mensagem.innerHTML = ""
     }
 }
