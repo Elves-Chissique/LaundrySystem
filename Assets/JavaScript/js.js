@@ -604,5 +604,18 @@ function validateForm() {
     // Check if the username and password match a user in the database
   
     return true; // Allow form submission
-  }
+}
   
+
+/* ----------------------------     configuração de checkBox      ----------------------------------------- */
+
+var checkBoxTorbant = window.document.getElementById('iTurbant')
+
+function checkCheckBox(){
+    if(checkBoxTorbant.checked){
+        window.alert('o checkBox está on')
+    }
+    else{
+        window.alert('o checkBox está off')
+    }
+}

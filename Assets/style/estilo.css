@@ -327,10 +327,10 @@ hr#linha{
     text-align: center;
     width: 75%;
     margin: auto;
-    padding: 5px;
+    padding: 5.5px;
     border-radius: 15px;
     cursor: pointer;
-    margin-top: 8px;
+    margin-top: 2px;
     box-sizing: border-box;
     border: rgba(0, 0, 255, 0) 2px solid;
 
