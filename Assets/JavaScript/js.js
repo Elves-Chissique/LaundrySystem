@@ -608,20 +608,45 @@ function validateForm() {
   
 
 /* ----------------------------     configuração de checkBox      ----------------------------------------- */
-
 var checkBoxTorbant = window.document.getElementById('iTurbant')
+var checkBoxBelt = window.document.getElementById('iBelt')
+var checkBoxShoes = window.document.getElementById('iShoes')
 var Mensagem = window.document.getElementById('imensagem')
-var turbant = window.document.getElementById('TurbantN').value
 
-var Form = window.document.getElementById("meuForm")
-var inputElement = formulario.getElementById('TTT')
-var valorDigitado = inputElement.value
 
 function checkCheckBox(){
+
     if(checkBoxTorbant.checked){
-        Mensagem.innerHTML = valorDigitado
+        var valorTurbant = window.document.getElementById('TTT').value
+
+        const novaMensagem1 = document.createTextNode(valorTurbant + ' x Turbant, ');
+      Mensagem.appendChild(novaMensagem1);
+
+        
+    }
+
+    else{
+        Mensagem.innerHTML = ""
+    }
+
+    if(checkBoxBelt.checked){
+        var valorBelt = window.document.getElementById('iBeltN').value
+
+       const novaMensagem2 = document.createTextNode(valorBelt + ' x Belt, ');
+      Mensagem.appendChild(novaMensagem2);
+        
     }
     else{
         Mensagem.innerHTML = ""
     }
+
+    if(checkBoxShoes.checked){
+        var valorShoes = window.document.getElementById('iShoesN').value;
+        
+
+        const novaMensagem3 = window.document.createTextNode(valorShoes + ' x Shoes, ');
+        Mensagem.appendChild(novaMensagem3)
+    }
 }
+
+

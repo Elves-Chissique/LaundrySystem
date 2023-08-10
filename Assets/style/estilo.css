@@ -588,12 +588,14 @@ display: none;
 }
 
 .caixinhas{
+    text-align: center;
     width: 45px;
     height: 19px;
     background-color: #ffffff75;
     border-radius: 5px;
     color:#fff;
     padding-left: 3px;
+    color:red;
 }
 
 .artigos{

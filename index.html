@@ -365,29 +365,29 @@
                         <label for="iName2">Name:</label>
                         <input class="caixa2" type="text" name="$Requested to:" id="iName2" placeholder="employee Name" required> 
                         <br> <br>
-                        <textarea name="mensagem" id="imensagem" cols="30" rows="3" placeholder="Dear requester! please Tick on the item and infor the QTY"></textarea>
+                        <textarea disabled name="mensagem" id="imensagem" cols="30" rows="3" placeholder="Dear requester! please Tick on the item and infor the QTY" value="Dear Laundry"></textarea>
                         <br>
 
                         <!--Parte de CheckBox para Seleção de uniforme-->
-                        <span class="artigos">
+                        <span style="display: none;" class="artigos">
                             <input oninput="checkCheckBox()" type="checkbox" id="iTurbant">
                             <label for="iTurbant">Turbant</label> 
                             &nbsp; &nbsp; 
-                            <input type="number" id="TTT" name="TTT" class="caixinhas" placeholder="qty" min="0" max="10">
-                        </span>
+                            <input oninput="checkCheckBox()" type="number" id="TTT" class="caixinhas" placeholder="qty" min="0" max="10">
+                        </span> 
 
                         <span class="artigos">
-                            <input type="checkbox" id="iBelt">
+                            <input type="checkbox" id="iBelt" oninput="checkCheckBox()">
                             <label for="iBelt">Belt</label> 
                             &nbsp; &nbsp; 
-                            <input type="number" name="$Belt:" class="caixinhas" placeholder="qty" min="0" max="10">
+                            <input type="number" oninput="checkCheckBox()" id="iBeltN" class="caixinhas" placeholder="qty" min="0" max="10">
                         </span>
 
                         <span class="artigos">
-                            <input type="checkbox" id="iShoes">
+                            <input type="checkbox" id="iShoes" oninput="checkCheckBox()">
                             <label for="iShoes">Shoes</label> 
                             &nbsp; &nbsp; 
-                            <input type="number" name="$Shoes:" class="caixinhas" placeholder="qty" min="0" max="10">
+                            <input type="number" id="iShoesN" class="caixinhas" placeholder="qty" min="0" max="10" oninput="checkCheckBox()">
                         </span>
                         <br>
 
@@ -395,40 +395,40 @@
                             <input type="checkbox"  id="iShirtLongSleeve">
                             <label for="iShirtLongSleeve">Shirt-Long Sl</label> 
                             &nbsp; &nbsp; 
-                            <input type="number" name="$Shirt-Long-Sleeve:" class="caixinhas" placeholder="qty" min="0" max="10">
+                            <input type="number" class="caixinhas" placeholder="qty" min="0" max="10">
                         </span>
 
                         <span class="artigos">
                             <input type="checkbox" id="iSkirt">
                             <label for="iSkrt">Skirt</label> 
-                            &nbsp; &nbsp; <input type="number" name="$Skirt:" class="caixinhas" placeholder="qty" min="0" max="10">
+                            &nbsp; &nbsp; <input type="number" class="caixinhas" placeholder="qty" min="0" max="10">
                         </span>
 
                         <span class="artigos">
                             <input type="checkbox" id="iT-shirt">
                             <label for="iT-shirt">T-shirt</label> 
                             &nbsp; &nbsp; 
-                            <input type="number" name="$T-shirt:" class="caixinhas" placeholder="qty" min="0" max="10">
+                            <input type="number" class="caixinhas" placeholder="qty" min="0" max="10">
                         </span>
                         <br>
                         <span class="artigos">
                             <input type="checkbox" id="iShort">
                             <label for="iShort">Short: </label> 
                             &nbsp; &nbsp; 
-                            <input type="number" name="$Short:" class="caixinhas" placeholder="qty" min="0" max="10">
+                            <input type="number"  class="caixinhas" placeholder="qty" min="0" max="10">
                         </span>
 
                         <span class="artigos">
                             <input type="checkbox" id="iTrouser">
                             <label for="iTrouser">Trousers</label> 
                             &nbsp; &nbsp; 
-                            <input type="number" name="$Trouser:" class="caixinhas" placeholder="qty" min="0" max="10">
+                            <input type="number"  class="caixinhas" placeholder="qty" min="0" max="10">
                         </span>
 
                         <span class="artigos">
                             <input type="checkbox" id="iShirtShortSleeve">
                             <label for="iShirtShortSleeve">Shirt-Short Sl</label> 
-                            &nbsp; &nbsp; <input type="number" name="$Shirt-Short-Sleeve:" class="caixinhas" placeholder="qty" min="0" max="10">
+                            &nbsp; &nbsp; <input type="number" class="caixinhas" placeholder="qty" min="0" max="10">
                         </span> 
                         <br>
                     </p>
