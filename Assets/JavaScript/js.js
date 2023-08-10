@@ -614,7 +614,7 @@ var Mensagem = window.document.getElementById('imensagem')
 var turbant = window.document.getElementById('TurbantN').value
 
 var Form = window.document.getElementById("meuForm")
-var inputElement = formulario.querySelector('input[name = "TTT"]')
+var inputElement = formulario.getElementById('TTT')
 var valorDigitado = inputElement.value
 
 function checkCheckBox(){
