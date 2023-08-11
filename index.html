@@ -370,7 +370,7 @@
 
                         <!--Parte de CheckBox para Seleção de uniforme-->
                         <span style="display: none;" class="artigos">
-                            <input oninput="checkCheckBox()" type="checkbox" id="iTurbant">
+                            <input oninput="checkCheckBox()" type="checkbox" id="iTurbant">  <!-- Checkbox de teste / no modo display-none -->
                             <label for="iTurbant">Turbant</label> 
                             &nbsp; &nbsp; 
                             <input oninput="checkCheckBox()" type="number" id="TTT" class="caixinhas" placeholder="qty" min="0" max="10">
@@ -380,22 +380,22 @@
                             <input type="checkbox" id="iBelt" oninput="checkCheckBox()">
                             <label for="iBelt">Belt</label> 
                             &nbsp; &nbsp; 
-                            <input type="number" oninput="checkCheckBox()" id="iBeltN" class="caixinhas" placeholder="qty" min="0" max="10">
+                            <input type="number" oninput="checkCheckBox()" id="iBeltN" value="1" class="caixinhas" placeholder="qty" min="1" max="10">
                         </span>
 
                         <span class="artigos">
                             <input type="checkbox" id="iShoes" oninput="checkCheckBox()">
                             <label for="iShoes">Shoes</label> 
                             &nbsp; &nbsp; 
-                            <input type="number" id="iShoesN" class="caixinhas" placeholder="qty" min="0" max="10" oninput="checkCheckBox()">
+                            <input type="number" id="iShoesN" value="1" class="caixinhas" placeholder="qty" min="1" max="10" oninput="checkCheckBox()">
                         </span>
                         <br>
 
                         <span class="artigos">
-                            <input type="checkbox"  id="iShirtLongSleeve">
+                            <input type="checkbox"  id="iShirtLongSleeve" oninput="checkCheckBox()">
                             <label for="iShirtLongSleeve">Shirt-Long Sl</label> 
                             &nbsp; &nbsp; 
-                            <input type="number" class="caixinhas" placeholder="qty" min="0" max="10">
+                            <input type="number" id="iShirtLongSleeveN" class="caixinhas" value="1" placeholder="qty" min="1" max="10" oninput="checkCheckBox()">
                         </span>
 
                         <span class="artigos">

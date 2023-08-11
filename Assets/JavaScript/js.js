@@ -611,6 +611,7 @@ function validateForm() {
 var checkBoxTorbant = window.document.getElementById('iTurbant')
 var checkBoxBelt = window.document.getElementById('iBelt')
 var checkBoxShoes = window.document.getElementById('iShoes')
+var cheboxShirtLongSleeve = window.document.getElementById('iShirtLongSleeve')
 var Mensagem = window.document.getElementById('imensagem')
 
 
@@ -647,6 +648,14 @@ function checkCheckBox(){
         const novaMensagem3 = window.document.createTextNode(valorShoes + ' x Shoes, ');
         Mensagem.appendChild(novaMensagem3)
     }
+
+    if(cheboxShirtLongSleeve.checked){
+        valorShirtLongSleeve = window.document.getElementById('iShirtLongSleeveN').value
+
+        const novaMensagem4 = window.document.createTextNode(valorShirtLongSleeve + ' x Shirt Long Sleeve, ');
+        Mensagem.appendChild(novaMensagem4)
+    }
+
 }
 
 

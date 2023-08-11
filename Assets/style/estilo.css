@@ -631,25 +631,14 @@ textarea{
     width: 95%;
     text-align: center;
     background-color: rgba(255, 0, 0, 0.048);
-    color:#fff;
+    color:greenyellow;
+    
+
 }
 
-#iName2{ /*Configuração do campo nome da formulário de sugestão*/
-    width: 95%;
+textarea#imensagem{
+    font-size: 11px;
 }
-
-textarea#imensagem2{ /*Configuração do campo nome da formulário de sugestão*/
-    height: 27vh;
-    border-radius: 20px;
-}
-
-#suggustion label{
-    font-family: cursive;
-    font-size: 12
-    px;
-}
-
-
 
 textarea:hover{
     border: 1px solid #fff;
@@ -663,6 +652,21 @@ textarea::placeholder{
     letter-spacing: 3px;
     outline: none;
 }
+
+textarea#imensagem2{ /*Configuração do campo nome do segundor formulário de (sugestão)*/
+    height: 27vh;
+    border-radius: 20px;
+}
+
+#iName2{ /*Configuração do campo nome da formulário de sugestão*/
+    width: 95%;
+}
+
+#suggustion label{
+    font-family: cursive;
+    font-size: 12px;
+}
+
 
 #iDate{
     width: 30%;
