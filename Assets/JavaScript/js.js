@@ -633,7 +633,7 @@ function checkCheckBox(){
     if(checkBoxBelt.checked){
         var valorBelt = window.document.getElementById('iBeltN').value
 
-       const novaMensagem2 = document.createTextNode(valorBelt + ' x Belt, ');
+       const novaMensagem2 = document.createTextNode(valorBelt + `xBelt,   ` );
       Mensagem.appendChild(novaMensagem2);
         
     }
@@ -645,7 +645,7 @@ function checkCheckBox(){
         var valorShoes = window.document.getElementById('iShoesN').value;
         
 
-        const novaMensagem3 = window.document.createTextNode(valorShoes + ' x Shoes, ');
+        const novaMensagem3 = window.document.createTextNode(valorShoes + 'xShoes,   ');
         Mensagem.appendChild(novaMensagem3)
     }
 

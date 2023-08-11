@@ -631,13 +631,14 @@ textarea{
     width: 95%;
     text-align: center;
     background-color: rgba(255, 0, 0, 0.048);
-    color:greenyellow;
+    color:rgb(141, 175, 89);
     
 
 }
 
 textarea#imensagem{
     font-size: 11px;
+    border: 2px solid #c4bbbb;
 }
 
 textarea:hover{
