@@ -606,9 +606,9 @@ display: none;
     padding:3px 3px;
     background-color: rgba(255, 0, 0, 0.048);
     cursor: pointer;
-    font-size: 12px;
+    font-size: 1rem;
     display: inline-block;
-    width: 12vw;
+    width: 11vw;
 }
 
 .artigos:hover{
