@@ -589,7 +589,7 @@ display: none;
 
 .caixinhas{
     text-align: center;
-    width: 45px;
+    width: 3vw;
     height: 19px;
     background-color: #ffffff75;
     border-radius: 5px;
@@ -608,7 +608,7 @@ display: none;
     cursor: pointer;
     font-size: 12px;
     display: inline-block;
-    width: 160px;
+    width: 12vw;
 }
 
 .artigos:hover{
