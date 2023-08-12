@@ -365,7 +365,7 @@
                         <label for="iName2">Name:</label>
                         <input class="caixa2" type="text" name="$Requested to:" id="iName2" placeholder="employee Name" required autocomplete="on"> 
                         <br> <br>
-                        <textarea readonly name="message" id="imensagem" cols="30" rows="3" placeholder="Dear requester! please Tick on the item and infor the QTY"></textarea>
+                        <textarea readonly name="message" id="imensagem" cols="1" rows="3" placeholder="Dear requester! please Tick on the item and infor the QTY"></textarea>
                         <br>
 
                         <!--Parte de CheckBox para Seleção de uniforme-->
@@ -381,6 +381,13 @@
                             <label for="iBelt">Belt</label> 
                             &nbsp; &nbsp; 
                             <input type="number" oninput="checkCheckBox()" id="iBeltN" value="1" class="caixinhas" placeholder="qty" min="1" max="10">
+                        </span>
+
+                        <span class="artigos">
+                            <input type="checkbox" id="iChefJacket" oninput="checkCheckBox()">
+                            <label for="iBelt">Chef Jacket</label> 
+                            &nbsp; &nbsp; 
+                            <input type="number" oninput="checkCheckBox()" id="iChefJacketN" value="1" class="caixinhas" placeholder="qty" min="1" max="10">
                         </span>
 
                         <span class="artigos">
