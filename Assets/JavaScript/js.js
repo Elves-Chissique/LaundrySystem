@@ -639,7 +639,7 @@ function checkCheckBox(){
     if(checkBoxBelt.checked){
         var valorBelt = window.document.getElementById('iBeltN').value
 
-       const novaMensagem2 = document.createTextNode(valorBelt + ` x Belt,   ` );
+       const novaMensagem2 = document.createTextNode('\u2713'+valorBelt + ` x Belt, \n` );
       Mensagem.appendChild(novaMensagem2);
         
     }
@@ -651,28 +651,28 @@ function checkCheckBox(){
         var valorShoes = window.document.getElementById('iShoesN').value;
         
 
-        const novaMensagem3 = window.document.createTextNode(valorShoes + ' x Shoes,   ');
+        const novaMensagem3 = window.document.createTextNode('\u2713'+valorShoes + ' x Shoes, \n');
         Mensagem.appendChild(novaMensagem3)
     }
 
     if(checkBoxShirtLongSleeve.checked){
         valorShirtLongSleeve = window.document.getElementById('iShirtLongSleeveN').value
 
-        const novaMensagem4 = window.document.createTextNode(valorShirtLongSleeve + ' x Shirt-Long-Sleeve,   ');
+        const novaMensagem4 = window.document.createTextNode('\u2713'+valorShirtLongSleeve + ' x Shirt-Long-Sleeve,\n');
         Mensagem.appendChild(novaMensagem4)
     }
 
     if(checkBoxChefJackte.checked){
         var valorChefJacket = window.document.getElementById('iChefJacketN').value
 
-        const novaMensagem5 = window.document.createTextNode(valorChefJacket + ' x Chef-Jacket,  ');
+        const novaMensagem5 = window.document.createTextNode('\u2713'+valorChefJacket + ' x Chef-Jacket, \n');
         Mensagem.appendChild(novaMensagem5)
     }
 
     if(checkBoxSkirt.checked){
         var valorSkirt = window.document.getElementById('iSkirtN').value;
 
-        const novaMensagem5 = window.document.createTextNode(valorSkirt + ' x Skirt,   ');
+        const novaMensagem5 = window.document.createTextNode('\u2713'+valorSkirt + ' x Skirt, \n');
 
         Mensagem.appendChild(novaMensagem5)
     }
@@ -680,28 +680,28 @@ function checkCheckBox(){
     if(checkBoxTshirt.checked){
         var valorTshirt = window.document.getElementById('iTshirtN').value;
 
-        const novaMensagem6 = window.document.createTextNode(valorTshirt + ' x Tshirt,   ');
+        const novaMensagem6 = window.document.createTextNode('\u2713'+valorTshirt + ' x Tshirt, \n');
         Mensagem.appendChild(novaMensagem6)
     }
 
     if(checkBoxShort.checked){
         var valorShort = window.document.getElementById('iShortN').value;
 
-        const novaMensagem7 = window.document.createTextNode(valorShort + ' x Short,   ');
+        const novaMensagem7 = window.document.createTextNode('\u2713'+valorShort + ' x Short,\n');
         Mensagem.appendChild(novaMensagem7)
     }
 
     if(checkBoxTrouser.checked){
         var valorTrouser = window.document.getElementById('iTrouserN').value;
 
-        const novaMensagem8 = window.document.createTextNode(valorTrouser + ' x Trouser,     ');
+        const novaMensagem8 = window.document.createTextNode('\u2713'+valorTrouser + ' x Trouser,\n');
         Mensagem.appendChild(novaMensagem8)
     }
 
     if(checkBoxShirtShortSleeve.checked){
         var valorShirtShortSleeve = window.document.getElementById('iShirtShortSleeveN').value;
 
-        const novaMensagem9 = window.document.createTextNode(valorShirtShortSleeve + ' x Shirt-Short-Sleeve,   ');
+        const novaMensagem9 = window.document.createTextNode('\u2713'+valorShirtShortSleeve + ' x Shirt-Short-Sleeve,\n');
         Mensagem.appendChild(novaMensagem9)
     }
 }
